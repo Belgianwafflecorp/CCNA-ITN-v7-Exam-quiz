@@ -933,11 +933,458 @@ questions = [
     "correct_answers": [2],  # Zero-based index for the correct answer
     "multi_answer": False
 },
-
-
-
-
-
+{
+    "question": "What characteristic describes adware?",
+    "options": [
+        "a network device that filters access and traffic coming into a network",
+        "software that is installed on a user device and collects information about the user",
+        "the use of stolen credentials to access private data",
+        "an attack that slows or crashes a device or network service"
+    ],
+    "correct_answers": [1],  # Zero-based index for the correct answer
+    "multi_answer": False
+},
+{
+    "question": "When a switch configuration includes a user-defined error threshold on a per-port basis, to which switching method will the switch revert when the error threshold is reached?",
+    "options": [
+        "cut-through",
+        "store-and-forward",
+        "fast-forward",
+        "fragment-free"
+    ],
+    "correct_answers": [1],  # Zero-based index for the correct answer
+    "multi_answer": False
+},
+{
+    "question": "What are two primary responsibilities of the Ethernet MAC sublayer? (Choose two.)",
+    "options": [
+        "error detection",
+        "frame delimiting",
+        "accessing the media",
+        "data encapsulation",
+        "logical addressing"
+    ],
+    "correct_answers": [2, 3],  # Zero-based indices for the correct answers
+    "multi_answer": True
+},
+{
+    "question": "What is the subnet ID associated with the IPv6 address 2001:DA48:FC5:A4:3D1B::1/64?",
+    "options": [
+        "2001:DA48::/64​",
+        "2001:DA48:FC5::A4:/64​",
+        "2001:DA48:FC5:A4::/64​",
+        "2001::/64"
+    ],
+    "correct_answers": [2],
+    "multi_answer": False
+},
+{
+    "question": "Users are reporting longer delays in authentication and in accessing network resources during certain time periods of the week. What kind of information should network engineers check to find out if this situation is part of a normal network behavior?",
+    "options": [
+        "syslog records and messages",
+        "the network performance baseline",
+        "debug output and packet captures",
+        "network configuration files"
+    ],
+    "correct_answers": [1],
+    "multi_answer": False
+},
+{
+    "question": "How does the service password-encryption command enhance password security on Cisco routers and switches?",
+    "options": [
+        "It requires encrypted passwords to be used when connecting remotely to a router or switch with Telnet.",
+        "It encrypts passwords that are stored in router or switch configuration files.",
+        "It requires that a user type encrypted passwords to gain console access to a router or switch.",
+        "It encrypts passwords as they are sent across the network."
+    ],
+    "correct_answers": [1],
+    "multi_answer": False
+},
+{
+    "question": "Which two statements are correct in a comparison of IPv4 and IPv6 packet headers? (Choose two.)",
+    "options": [
+        "The Source Address field name from IPv4 is kept in IPv6.",
+        "The Version field from IPv4 is not kept in IPv6.",
+        "The Destination Address field is new in IPv6.",
+        "The Header Checksum field name from IPv4 is kept in IPv6.",
+        "The Time-to-Live field from IPv4 has been replaced by the Hop Limit field in IPv6."
+    ],
+    "correct_answers": [0, 4],
+    "multi_answer": True
+},
+{
+    "question": "What characteristic describes identity theft?",
+    "options": [
+        "the use of stolen credentials to access private data",
+        "software on a router that filters traffic based on IP addresses or applications",
+        "software that identifies fast-spreading threats",
+        "a tunneling protocol that provides remote users with secure access into the network of an organization"
+    ],
+    "correct_answers": [0],
+    "multi_answer": False
+},
+{
+    "question": "A network administrator is adding a new LAN to a branch office. The new LAN must support 200 connected devices. What is the smallest network mask that the network administrator can use for the new network?",
+    "options": [
+        "255.255.255.240",
+        "255.255.255.0",
+        "255.255.255.248",
+        "255.255.255.224"
+    ],
+    "correct_answers": [1],
+    "multi_answer": False
+},
+{
+    "question": "What are three commonly followed standards for constructing and installing cabling? (Choose three.)",
+    "options": [
+        "cost per meter (foot)",
+        "cable lengths",
+        "connector color",
+        "pinouts",
+        "connector types",
+        "tensile strength of plastic insulator"
+    ],
+    "correct_answers": [1, 3, 4],
+    "multi_answer": True
+},
+{
+    "question": "A client packet is received by a server. The packet has a destination port number of 143. What service is the client requesting?",
+    "options": [
+    "IMAP",
+    "FTP",
+    "SSH",
+    "Telnet"
+    ],
+    "correct_answers": [0],
+    "multi_answer": False
+},
+{
+    "question": "What are two characteristics shared by TCP and UDP? (Choose two.)",
+    "options": [
+    "default window size",
+    "connectionless communication",
+    "port numbering",
+    "3-way handshake",
+    "ability to to carry digitized voice",
+    "use of checksum"
+    ],
+    "correct_answers": [2, 5],
+    "multi_answer": True
+},
+{
+    "question": "A client packet is received by a server. The packet has a destination port number of 21. What service is the client requesting?",
+    "options": [
+        "FTP",
+        "LDAP",
+        "SLP",
+        "SNMP"
+    ],
+    "correct_answers": [0],
+    "multi_answer": False
+},
+{
+    "question": "What attribute of a NIC would place it at the data link layer of the OSI model?",
+    "options": [
+        "attached Ethernet cable",
+        "IP address",
+        "MAC address",
+        "RJ-45 port",
+        "TCP/IP protocol stack"
+    ],
+    "correct_answers": [2],
+    "multi_answer": False
+},
+{
+    "question": "A network administrator is adding a new LAN to a branch office. The new LAN must support 10 connected devices. What is the smallest network mask that the network administrator can use for the new network?",
+    "options": [
+        "255.255.255.192",
+        "255.255.255.248",
+        "255.255.255.224",
+        "255.255.255.240"
+    ],
+    "correct_answers": [3],
+    "multi_answer": False
+},
+{
+    "question": "What technique is used with UTP cable to help protect against signal interference from crosstalk?",
+    "options": [
+        "wrapping a foil shield around the wire pairs",
+        "twisting the wires together into pairs",
+        "terminating the cable with special grounded connectors",
+        "encasing the cables within a flexible plastic sheath"
+    ],
+    "correct_answers": [1],
+    "multi_answer": False
+},
+{
+    "question": "A client packet is received by a server. The packet has a destination port number of 22. What service is the client requesting?",
+    "options": [
+        "SSH",
+        "SMB/CIFS",
+        "HTTPS",
+        "SLP"
+    ],
+    "correct_answers": [0],
+    "multi_answer": False
+},
+{
+    "question": "What characteristic describes an IPS?",
+    "options": [
+        "a tunneling protocol that provides remote users with secure access into the network of an organization",
+        "a network device that filters access and traffic coming into a network",
+        "software that identifies fast-spreading threats",
+        "software on a router that filters traffic based on IP addresses or applications"
+    ],
+    "correct_answers": [1],
+    "multi_answer": False
+},
+{
+    "question": "What two ICMPv6 message types must be permitted through IPv6 access control lists to allow resolution of Layer 3 addresses to Layer 2 MAC addresses? (Choose two.)",
+    "options": [
+        "neighbor solicitations",
+        "echo requests",
+        "neighbor advertisements",
+        "echo replies",
+        "router solicitations",
+        "router advertisements"
+    ],
+    "correct_answers": [0, 2],
+    "multi_answer": True
+},
+{
+    "question": "A client is using SLAAC to obtain an IPv6 address for its interface. After an address has been generated and applied to the interface, what must the client do before it can begin to use this IPv6 address?",
+    "options": [
+        "It must send a DHCPv6 INFORMATION-REQUEST message to request the address of the DNS server.",
+        "It must send a DHCPv6 REQUEST message to the DHCPv6 server to request permission to use this address.",
+        "It must send an ICMPv6 Router Solicitation message to determine what default gateway it should use.",
+        "It must send an ICMPv6 Neighbor Solicitation message to ensure that the address is not already in use on the network."
+    ],
+    "correct_answers": [3],
+    "multi_answer": False
+},
+{
+    "question": "Two pings were issued from a host on a local network. The first ping was issued to the IP address of the default gateway of the host and it failed. The second ping was issued to the IP address of a host outside the local network and it was successful. What is a possible cause for the failed ping?",
+    "options": [
+        "The default gateway is not operational.",
+        "The default gateway device is configured with the wrong IP address.",
+        "Security rules are applied to the default gateway device, preventing it from processing ping requests.",
+        "The TCP/IP stack on the default gateway is not working properly."
+    ],
+    "correct_answers": [2],
+    "multi_answer": False
+},
+{
+    "question": "An organization is assigned an IPv6 address block of 2001:db8:0:ca00::/56. How many subnets can be created without using bits in the interface ID space?",
+    "options": [
+        "256",
+        "512",
+        "1024",
+        "4096"
+    ],
+    "correct_answers": [0],
+    "multi_answer": False
+},
+{
+    "question": "What subnet mask is needed if an IPv4 network has 40 devices that need IP addresses and address space is not to be wasted?",
+    "options": [
+        "255.255.255.0",
+        "255.255.255.240",
+        "255.255.255.128",
+        "255.255.255.192",
+        "255.255.255.224"
+    ],
+    "correct_answers": [3],
+    "multi_answer": False
+},
+{
+    "question": "What is a benefit of using cloud computing in networking?",
+    "options": [
+        "Technology is integrated into every-day appliances allowing them to interconnect with other devices, making them more ‘smart’ or automated.",
+        "Network capabilities are extended without requiring investment in new infrastructure, personnel, or software.",
+        "End users have the freedom to use personal tools to access information and communicate across a business network.",
+        "Home networking uses existing electrical wiring to connect devices to the network wherever there is an electrical outlet, saving the cost of installing data cables."
+    ],
+    "correct_answers": [1],
+    "multi_answer": False
+},
+{
+    "question": "Which two statements are correct about MAC and IP addresses during data transmission if NAT is not involved? (Choose two.)",
+    "options": [
+        "Destination IP addresses in a packet header remain constant along the entire path to a target host.",
+        "Destination MAC addresses will never change in a frame that goes across seven routers.",
+        "Every time a frame is encapsulated with a new destination MAC address, a new destination IP address is needed.",
+        "Destination and source MAC addresses have local significance and change every time a frame goes from one LAN to another.",
+        "A packet that has crossed four routers has changed the destination IP address four times."
+    ],
+    "correct_answers": [0, 3],
+    "multi_answer": True
+},
+{
+    "question": "What is one main characteristic of the data link layer?",
+    "options": [
+        "It generates the electrical or optical signals that represent the 1 and 0 on the media.",
+        "It converts a stream of data bits into a predefined code.",
+        "It shields the upper layer protocol from being aware of the physical medium to be used in the communication.",
+        "It accepts Layer 3 packets and decides the path by which to forward the packet to a remote network."
+    ],
+    "correct_answers": [2],
+    "multi_answer": False
+},
+{
+    "question": "What are three characteristics of the CSMA/CD process? (Choose three.)",
+    "options": [
+        "The device with the electronic token is the only one that can transmit after a collision.",
+        "A device listens and waits until the media is not busy before transmitting.",
+        "After detecting a collision, hosts can attempt to resume transmission after a random time delay has expired.",
+        "All of the devices on a segment see data that passes on the network medium.",
+        "A jam signal indicates that the collision has cleared and the media is not busy.",
+        "Devices can be configured with a higher transmission priority."
+    ],
+    "correct_answers": [1, 2, 3],
+    "multi_answer": True
+},
+{
+    "question": "Which two commands can be used on a Windows host to display the routing table? (Choose two.)",
+    "options": [
+        "netstat -s",
+        "route print",
+        "show ip route",
+        "netstat -r",
+        "tracert"
+    ],
+    "correct_answers": [1, 3],
+    "multi_answer": True
+},
+{
+    "question": "What are two functions that are provided by the network layer? (Choose two.)",
+    "options": [
+        "directing data packets to destination hosts on other networks",
+        "placing data on the network medium",
+        "carrying data between processes that are running on source and destination hosts",
+        "providing dedicated end-to-end connections",
+        "providing end devices with a unique network identifier"
+    ],
+    "correct_answers": [0, 4],
+    "multi_answer": True
+},
+{
+    "question": "Which two statements describe features of an IPv4 routing table on a router? (Choose two.)",
+    "options": [
+        "Directly connected interfaces will have two route source codes in the routing table: C and S.",
+        "If there are two or more possible routes to the same destination, the route associated with the higher metric value is included in the routing table.",
+        "The netstat -r command can be used to display the routing table of a router.",
+        "The routing table lists the MAC addresses of each active interface.",
+        "It stores information about routes derived from the active router interfaces.",
+        "If a default static route is configured in the router, an entry will be included in the routing table with source code S."
+    ],
+    "correct_answers": [4, 5],
+    "multi_answer": True
+},
+{
+    "question": "What characteristic describes a VPN?",
+    "options": [
+        "software on a router that filters traffic based on IP addresses or applications",
+        "software that identifies fast-spreading threats",
+        "a tunneling protocol that provides remote users with secure access into the network of an organization",
+        "a network device that filters access and traffic coming into a network"
+    ],
+    "correct_answers": [2],
+    "multi_answer": False
+},
+{
+    "question": "A user sends an HTTP request to a web server on a remote network. During encapsulation for this request, what information is added to the address field of a frame to indicate the destination?",
+    "options": [
+        "the network domain of the destination host",
+        "the IP address of the default gateway",
+        "the MAC address of the destination host",
+        "the MAC address of the default gateway"
+    ],
+    "correct_answers": [3],
+    "multi_answer": False
+},
+{
+    "question": "What is an advantage to using a protocol that is defined by an open standard?",
+    "options": [
+        "A company can monopolize the market.",
+        "The protocol can only be run on equipment from a specific vendor.",
+        "An open standard protocol is not controlled or regulated by standards organizations.",
+        "It encourages competition and promotes choices."
+    ],
+    "correct_answers": [3],
+    "multi_answer": False
+},
+{
+    "question": "Data is being sent from a source PC to a destination server. Which three statements correctly describe the function of TCP or UDP in this situation? (Choose three.)",
+    "options": [
+        "The source port field identifies the running application or service that will handle data returning to the PC.",
+        "The TCP process running on the PC randomly selects the destination port when establishing a session with the server.",
+        "UDP segments are encapsulated within IP packets for transport across the network.",
+        "The UDP destination port number identifies the application or service on the server which will handle the data.",
+        "TCP is the preferred protocol when a function requires lower network overhead.",
+        "The TCP source port number identifies the sending host on the network."
+    ],
+    "correct_answers": [0, 2, 3],
+    "multi_answer": True
+},
+{
+    "question": "What two pieces of information are displayed in the output of the show ip interface brief command? (Choose two.)",
+    "options": [
+        "IP addresses",
+        "interface descriptions",
+        "MAC addresses",
+        "next-hop addresses",
+        "Layer 1 statuses",
+        "speed and duplex settings"
+    ],
+    "correct_answers": [0, 4],
+    "multi_answer": True
+},
+{
+    "question": "A user is complaining that an external web page is taking longer than normal to load. The web page does eventually load on the user machine. Which tool should the technician use with administrator privileges in order to locate where the issue is in the network?",
+    "options": [
+        "ping",
+        "nslookup",
+        "tracert",
+        "ipconfig /displaydns"
+    ],
+    "correct_answers": [2],
+    "multi_answer": False
+},
+{
+    "question": "A network technician is researching the use of fiber optic cabling in a new technology center. Which two issues should be considered before implementing fiber optic media? (Choose two.)",
+    "options": [
+        "Fiber optic cabling requires different termination and splicing expertise from what copper cabling requires.",
+        "Fiber optic cabling requires specific grounding to be immune to EMI.",
+        "Fiber optic cabling is susceptible to loss of signal due to RFI.",
+        "Fiber optic cable is able to withstand rough handling.",
+        "Fiber optic provides higher data capacity but is more expensive than copper cabling."
+    ],
+    "correct_answers": [0, 4],
+    "multi_answer": True
+},
+{
+    "question": "A user is executing a tracert to a remote device. At what point would a router, which is in the path to the destination device, stop forwarding the packet?",
+    "options": [
+        "when the router receives an ICMP Time Exceeded message",
+        "when the RTT value reaches zero",
+        "when the host responds with an ICMP Echo Reply message",
+        "when the value in the TTL field reaches zero",
+        "when the values of both the Echo Request and Echo Reply messages reach zero"
+    ],
+    "correct_answers": [3],
+    "multi_answer": False
+},
+{
+    "question": "Users report that the network access is slow. After questioning the employees, the network administrator learned that one employee downloaded a third-party scanning program for the printer. What type of malware might be introduced that causes slow performance of the network?",
+    "options": [
+        "virus",
+        "worm",
+        "phishing",
+        "spam"
+    ],
+    "correct_answers": [1],
+    "multi_answer": False
+},
 ]
 
 
