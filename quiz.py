@@ -1457,9 +1457,9 @@ def main():
             if len(correct_answers) == 1:
                 console.print(f"{correct_answers[0] + 1}. {options[correct_answers[0]]}", style="bold")
             else:
-                console.print("The correct answers are:", style="bold")
+                console.print("The correct answers are:\n", style="bold")
                 for i in correct_answers:
-                    console.print(f"{options[i]}", style="bold")
+                    console.print(f"{options[i]}\n", style="bold")
             input("Press Enter to continue...")
             clear_screen()
             console.print()  # Add an empty line for spacing
