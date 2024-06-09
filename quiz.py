@@ -1463,9 +1463,9 @@ def main():
             input("Press Enter to continue...")
             clear_screen()
             console.print()  # Add an empty line for spacing
-
+    result = round(score / 1.24, 2)
     console.print(f"You scored {score} out of {len(questions)}.", style="bold cyan")
-    console.print(f"Thats {score / 1.24}%", style="bold cyan")
+    console.print(f"Thats {result}%", style="bold cyan")
 
 if __name__ == "__main__":
     main()
