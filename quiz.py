@@ -1397,7 +1397,7 @@ def ask_question(question, options, correct_answer_indices, multi_answer=False):
     """
     console.print(f"{question}\n", style="bold yellow")
     for i, option in enumerate(options):
-        console.print(f"{i + 1}. {option}")
+        console.print(f"{i + 1}. {option}\n")
 
     if multi_answer:
         console.print("\nPlease enter your answers separated by a comma (e.g., 1,3):")
