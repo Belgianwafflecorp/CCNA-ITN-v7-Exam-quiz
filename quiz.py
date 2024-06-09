@@ -272,7 +272,7 @@ questions = [
     "multi_answer": True
 },
 {
-    "question": "What three network characteristics are described in this scenario? (Choose three.)",
+    "question": "An employee of a large corporation remotely logs into the company using the appropriate username and password. The employee is attending an important video conference with a customer concerning a large sale. It is important for the video quality to be excellent during the meeting. The employee is unaware that after a successful login, the connection to the company ISP failed. The secondary connection, however, activated within seconds. The disruption was not noticed by the employee or other employees. What three network characteristics are described in this scenario? (Choose three.)",
     "options": [
         "security",
         "quality of service",
