@@ -1395,7 +1395,7 @@ def ask_question(question, options, correct_answer_indices, multi_answer=False):
     Function to ask a question and validate the user's response.
     Returns True if the response is correct, False otherwise.
     """
-    console.print(question, style="bold yellow")
+    console.print(f"{question}\n", style="bold yellow")
     for i, option in enumerate(options):
         console.print(f"{i + 1}. {option}")
 
