@@ -2,6 +2,7 @@ import random
 from rich import print
 from rich.console import Console
 console = Console()
+import os
 
 
 questions = [
@@ -1421,6 +1422,10 @@ def ask_question(question, options, correct_answer_indices, multi_answer=False):
         except ValueError:
             console.print("Invalid input. Please enter the correct format.")
 
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+
 def main():
     # Your list of questions and answers goes here
 
@@ -1445,6 +1450,8 @@ def main():
         if ask_question(question, shuffled_options, shuffled_correct_indices, multi_answer):
             console.print("Correct!\n", style="green")
             score += 1
+            input("Press Enter to continue...")
+            clear_screen()
         else:
             console.print("Incorrect. The correct answer is:", style="red")
             if len(correct_answers) == 1:
@@ -1453,6 +1460,8 @@ def main():
                 console.print("The correct answers are:", style="bold")
                 for i in correct_answers:
                     console.print(f"{i + 1}. {options[i]}", style="bold")
+            input("Press Enter to continue...")
+            clear_screen()
             console.print()  # Add an empty line for spacing
 
     console.print(f"You scored {score} out of {len(questions)}.", style="bold cyan")
