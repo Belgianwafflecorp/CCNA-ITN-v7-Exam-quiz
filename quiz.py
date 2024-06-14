@@ -256,7 +256,7 @@ questions = [
         "delivery options",
         "end-device installation"
     ],
-    "correct_answers": [0, 1, 3],  # Zero-based indices for "message size", "message encoding", and "media selection"
+    "correct_answers": [0, 1, 4],  # Zero-based indices for "message size", "message encoding", and "media selection"
     "multi_answer": True
 },
 {
